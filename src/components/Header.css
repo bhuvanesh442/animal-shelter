@@ -1,0 +1,238 @@
+:root{
+    --primary:#e7eeee;
+}
+.headerdiv{
+    background-color: var(--primary);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary);
+    /* margin-top: 2%; */
+    padding-top: 2%;
+    width: 100%;
+}
+.navdiv1{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    position: relative;
+}
+/* .navdiv1 img{
+    height: 20%;
+    width: 20%;
+} */
+.navdiv2{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.navdiv2 h2{
+    font-weight: 400;
+}
+.navdiv2 h2:nth-child(1){
+    font-weight: 700;
+    text-decoration: underline;
+}
+.navdiv2 h2:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.navdiv3{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    cursor: pointer;
+}
+.burger{
+    display: none;
+}
+
+/* content */
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: 6%;
+    width: 100%;
+}
+.content1-left{
+   text-align: start;
+   padding: 0 5%;
+   width: 65%;
+   
+}
+.content1-left h1{
+    font-weight: 500;
+}
+.content1-left h2{
+    font-weight: 400;
+}
+.content1-leftimg{
+    display: none;
+}
+.btnadopt{
+    background-color: hsl(348deg 100% 70%);
+    padding: 2% 4%;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    color: #e7eeee;
+    cursor: pointer;
+}
+.btnpets{
+    background-color:var(--primary);
+    padding: 2% 9%;
+    margin-left: 2%; 
+    border: 1px solid black;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.content1-right{
+    width: 35%;
+    position: relative;
+}
+.content1-right img{
+  width: 75%;
+  height: 100%;
+}
+
+/* content 2*/
+.content2{
+   text-align: end;
+   margin-left: 10%;
+   margin-right: 4%;
+}
+.content2 h1{
+   font-weight: 500;
+   font-size: 200%;
+}
+.content2 h2{
+    font-weight: 400;
+    font-size: 150%;
+
+}
+.content2 button{
+    padding: 1% 2%;
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* content3 */
+.content3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9%;
+    margin-right: 3%;
+    padding-bottom: 4%;
+}
+.content3 h2{
+    font-weight: 400;
+}
+.content3 img{
+    height: 100%;
+    width: 100%;
+}
+.popups{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    position:fixed;
+    z-index: 100;
+    box-shadow: 100px 100px 100px #c2c7c5, 100px 100px 40px #c5cac9, 0 0 80px #aaafac;
+}
+@media only screen and (max-width:950px){
+    .navbar{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navdiv1{
+        width: 60%;
+    }
+    .navdiv1 img{
+         height: 20%;
+          width: 20%;    
+    }
+    .navdiv1 h1{
+        font-size: 150%;
+        text-align: center;
+    }
+    .navdiv2{
+        display: none;
+    }
+     .linksimg{
+       display: none;
+     }
+    .burger{
+        display: block;
+    }
+    .content2{
+        text-align: center;
+        font-size: 60%;
+    }
+    .content2 button{
+        padding: 5% 10% ;
+        font-size: 150%;
+    }
+    .content3{
+        display: flex;
+        flex-direction: column;
+    }
+    .content3 h2{
+        font-size: 100%;
+        margin-left: 10%;
+    }
+    .content3 img{
+        height: 30%;
+        width: 30%;
+        margin-left: 40%;
+        margin-top: 20%;
+    }
+    @media only screen and (max-width:700px){
+        .navdiv1 h1{
+            font-size: 100%;
+        }
+        .content1-right{
+            display: none;
+        }
+        .content1-right img{
+            display: none;
+        }
+        .content1{
+           width: 100%;
+        }
+        .content1-left{
+            width: 100%;
+            font-size: 65%;
+        }
+        .content1-leftimg{
+            display: block;
+            width: 50%;
+            margin-left: 20%;
+        }
+        @media only screen and (max-width:500px){
+            .btnadopt{
+                padding: 5% 30%;
+               font-size: 120%;
+               margin-left: 10%;
+            }
+            .btnpets{
+                padding: 4% 15%;
+                /* font-size: 120%; */
+                margin-left: 10%;
+                margin-top: 5%;
+                font-weight: 500;
+                text-align: center;
+                width: 70%;
+                /* width: 53%; */
+            }
+
+        }
+    }
+}

@@ -1,0 +1,143 @@
+
+.footerdiv{
+    background-color:#131313;
+
+}
+.footerdiv h3{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 0.5px;
+}
+.footerdiv p{
+    color: #818181;
+    font-size:small;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid rgb(80, 80, 79);
+    margin-right: 8%;
+    margin-left: 10%;
+}
+.footer-content1{
+    width: 25%;
+}
+.footer-content1 img{
+    margin-top: 3%;
+    margin-left: 2%; 
+    height: 16%;
+    width: 16%;
+}
+.footer-content1 p{
+    margin-top: 10%;
+}
+.footer-content1 div{
+    display: flex;
+}
+.footer-content1 button{
+    padding: 5% 8%;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    background-color: hsl(348deg 100% 70%);
+    color: aliceblue;
+    margin-top: 10%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-content2{
+    width: 32%;
+    margin-left: 5%;
+}
+.footer-content2 div{
+    display: flex;
+}
+.footer-content2 div p{
+    margin-top: 1%;
+}
+.footer-content2  div img{
+    margin-right: 3%;
+    /* height: 100%;
+    width: 100%; */
+}
+.loca-img{
+    height: 30%;
+    width: 12%;
+}
+.footercontact-img{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.footer-content3{
+    width: 16%;
+    margin-left: 9%; 
+}
+.footer-end{
+    display: flex;
+    font-size:medium;
+    font-weight: 200;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding-bottom: 6%;
+    margin-left: 10%;
+    width: 82%;
+    
+}
+.footer-end div{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.footer-end p{
+    font-size: small;
+    font-weight: 500;
+    
+}
+.footer-end a{
+    color: #ccc8c8;
+    font-size: 90%;
+    font-weight: 500;
+    margin-left: 0%;
+}
+
+
+@media only screen and (max-width:700px){
+    .footer-end div{
+        display: none;
+    }
+    .footer-details{
+        flex-direction: column;
+        border-bottom: none;
+    }
+    .footer-content1{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 5%;
+        border-bottom: 2px solid rgb(105, 105, 105);
+    }
+    .footer-content1 div{
+        margin-left: 10%;
+    }
+    .footer-content1 button{
+        padding: 4% 26%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .footer-content2{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .footer-content3{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+
+    
+}

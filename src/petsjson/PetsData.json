@@ -1,0 +1,10 @@
+
+{
+
+    "dogs":[{"Breed":"Bulldog","age":6,"name":"Jimmy"},{"Breed":"Labrador","age":5,"name":"Tom"},{"Breed":"Siberian","age":4,"name":"Jim"},{"Breed":"Poodle","age":7,"name":"Tommy"},{"Breed":"Retriver","age":10,"name":"jam"},
+           {"Breed":"carrin terrier","age":7,"name":"Tim"},{"Breed":"matipoo","age":9,"name":"Ran"},{"Breed":"shelti","age":2,"name":"jerry"},{"Breed":"Goldendoodle","age":12,"name":"Tong"},{"Breed":"Dalmatian","age":11,"name":"dan"}],
+  
+   "cats":[{"Breed":"Persian cat","age":5,"name":"Tom"},{"Breed":"Rogdoll","age":11,"name":"Tim"},{"Breed":"Birman","age":7,"name":"Jim"},{"Breed":"Siberian cat","age":5,"name":"jimmy"},{"Breed":"Devon","age":6,"name":"jam"},
+          {"Breed":"Russion blue","age":7,"name":"Boptail"},{"Breed":"somali cat","age":9,"name":"Ran"},{"Breed":"Oci cat","age":2,"name":"jerry"},{"Breed":"Touger","age":12,"name":"Tong"},{"Breed":"Sokoke","age":11,"name":"dan"}]
+  
+  }

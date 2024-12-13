@@ -1,0 +1,108 @@
+.adopt{
+    background-color: rgb(226, 250, 250);
+    height: 100vh;
+    width: 47%;
+    margin-left: 30%;
+    margin-right: 30%;
+    z-index: inherit;
+    display: inline-block;
+    position: fixed;
+    box-shadow: blue;
+}
+.adopt::-webkit-scrollbar{
+    display: none;
+}
+.adopt h1{
+    letter-spacing: 0.5px;
+}
+.contents{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -8%;
+    color: rgb(66, 66, 66);
+}
+.contents span{
+    color: rgb(207, 15, 15);
+}
+.contents label{
+    margin: 3% 0;
+    font-weight: 430;
+    font-size: large;
+}
+.contents select{
+    width: 55%;
+    padding: 3% 5%;
+    padding-left: 2%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../../imgs/arrow-down.svg);
+    background-repeat:no-repeat;
+    background-position: calc(100% - 3px) center;
+    font-size: medium;
+    font-weight: 550;
+    border-radius: 5px;
+    border:0.2px solid rgb(189, 186, 186) ;
+    outline:0.2px solid rgb(202, 200, 200);
+}
+
+.contents input{
+    padding: 3% 5%;
+    padding-left: 2%;
+    width: 55%;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 550;
+    outline: 0.2px solid rgb(202, 200, 200);
+    outline: none;
+    border: 0.2px solid rgb(175, 175, 175);
+}
+.submit-btn{
+    background-color: hsl(348deg 100% 70%);
+    color: rgb(250, 248, 248);
+    margin-top: 9%;
+    margin-bottom: 10%;
+    margin-left: 55%;
+    padding: 2% 3%;
+    width: 42%;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+    
+}
+.close{
+    font-size: 120%;
+    font-weight: 500;
+    color: rgb(89, 89, 90);
+   margin-left: 95%;
+   cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+    .adopt{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .adopt h1{
+        font-size: 170%;
+        text-align: center;
+    }
+    .adopt h2{
+        font-size: 120%;
+    }
+    .contents select{
+        width: 95%;
+        padding: 5% 10%;
+    }
+    .contents input{
+        width: 95%;
+        padding: 5% 10%;
+    }
+    .submit-btn{
+        width: 70%;
+        margin-left: 10%;
+        padding: 5% 10%;
+    }
+}
